@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	background: #FF9694;
+	width: 100%;
+	clear: both;
+	content: "";
+	display: table;
+}
+
+body {
+	background: #FFC6C5;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 20px;
+}
+
+
+.menu {
+	width: 900px;
+	margin: 0px auto;
+	margin-right: 30px;
+
+}
+
+.menu__img {
+	width: 65px;
+	height: 70px;
+	float: left;
+	padding: 10px;
+	margin-top: 11px;
+	margin-left: -485px;
+}
+
+.dato {
+	margin-left: 330px;
+	margin-top: 5px;
+	font-size: 18px;
+	color: #222222;
+}
+
+.dato__izq {
+	margin-left: -1060px;
+	margin-top: -3px;
+	padding-right: -10px;
+}
+
+.dato__der {
+	margin-top: -3px;
+}
+
+.cuerpo__portada {
+	width: 1420px;
+	height: 629px;
+	margin-left: -1px;
+	margin-top: -49px;
+}
+
+.cuerpo__perfil {
+	width: 201px;
+	height: 201px;
+	margin-top: -155px;
+	margin-left: 70px;
+}
+
+.cuerpo__nombre {
+	font-weight: bolder;
+	font-size: 33px;
+	margin-left: 290px;
+	margin-top: -149px;
+}
+
+.rectangulo {
+	width: 858px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 330px;
+	margin-bottom: 2x;
+	border: 1px solid #646464;
+	background: #FEDCDB;
+}
+
+
+.dato__titulo {
+	margin-top: 130px;
+	margin-left: 329px;
+}
+
+
+.hab__der {
+	font-size: 16px;
+	color: #222222;
+	text-align: right;
+	margin-right: 170px;
+	padding: 20px;
+}
+
+
+.hab__img {
+	border: 1px solid #646464;
+	margin-left: 330px;
+	width: 900px;
+	height: 48px;
+}
+
+
+.dato__num {
+	margin-left: 1165px;
+	padding-top: 9px;
+	padding-bottom: -90px;
+}
+
+.separacion {
+	margin-top: 400px;
+	text-align: right;
+}
+
+
+
+
+nav {
+	float: right;
+	margin-left: 150px;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 75px;
+	padding:  25px 0;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #444444;
+	font-weight: bold;
+	margin-right: 1px;
+}
+
+nav ul li a::before {
+	display: block;
+	width: 100%;
+	background: #444;
+	height: 5px;
+	top: 0;
+	position: absolute;
+	transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+	width: 100%;
+}
+
